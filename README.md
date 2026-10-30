@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tenpace-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tenpace.com/
+Tenpace provides a suite of web‑based tools focused on health tracking and workflow automation. Tenpace Health offers training, nutrition, shared recipes, measurements and progress tracking in a daily system, with free and paid plans. Review Router automates software team processes by sending GitHub pull requests to the appropriate Slack channels and reviewers, available in free and team tiers. The platform emphasizes private, consent‑based accountability and contributes 1 % of revenue to carbon removal. All services are delivered via secure web applications hosted on tenpace.com and its subdomains.
+
+**Areas:** Health · SaaS · Productivity · Workflow · Integration · Company
+
+## tenpace-com on APIs.io
+
+Everything profiled for tenpace-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tenpace-com/](https://apis.io/providers/tenpace-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [tenpace-com Review Router setup API](https://apis.io/apis/tenpace-com/tenpace-com-review-router-setup-api/) — Plan, authorize, apply, and verify a Review Router connection without exposing provider credentials to the calling agent.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tenpace Com Agentic Access](https://apis.io/agentic-access/tenpace-com/tenpace-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [ConnectionUrl](https://apis.io/schemas/tenpace-com/tenpace-com-connection-url/)
+- [CreatedSetupSession](https://apis.io/schemas/tenpace-com/tenpace-com-created-setup-session/)
+- [SetupIntent](https://apis.io/schemas/tenpace-com/tenpace-com-setup-intent/)
+- [SetupSession](https://apis.io/schemas/tenpace-com/tenpace-com-setup-session/)
+- [SetupSource](https://apis.io/schemas/tenpace-com/tenpace-com-setup-source/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tenpace Com Context](https://apis.io/jsonld/tenpace-com/tenpace-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [tenpace-com API Rules](https://apis.io/rules/tenpace-com/tenpace-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tenpace Com Authentication](https://apis.io/security/tenpace-com/tenpace-com-authentication/)
+- [Tenpace Com Domain Security](https://apis.io/security/tenpace-com/tenpace-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tenpace Com Plans Pricing](https://apis.io/plans/tenpace-com/tenpace-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tenpace.com/)
+- [API reference](https://tenpace.com/api/)
+- [Pricing](https://tenpace.com/products)
+- [Sign up](https://tenpace.com/login)
+- [Support](https://tenpace.com/support)
+- [Terms of service](https://tenpace.com/terms-of-service)
+- [Privacy policy](https://tenpace.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 52.3** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 43.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tenpace-com/](https://apis.io/providers/tenpace-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for tenpace-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tenpace-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
